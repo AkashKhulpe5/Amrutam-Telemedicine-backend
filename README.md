@@ -304,14 +304,6 @@ automation must be validated before claiming production readiness.
 Docker is not required for the local development commands in this
 README.
 
-## Repository Safety
-
-Before pushing the project to GitHub: - Confirm `.env` and other secret
-files are excluded by `.gitignore`. - Do not upload `.venv/`,
-`.pytest_cache/`, or `__pycache__/`. - Do not commit real patient data
-or database exports. - Review `create_doctor.py` for hardcoded
-credentials or sensitive data. - Check that the assignment terms permit
-public sharing and licensing.
 
 ## License
 
